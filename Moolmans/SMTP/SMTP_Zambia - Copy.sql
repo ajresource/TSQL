@@ -1,0 +1,1 @@
+update AMT_TYPED_VARIABLE set Varchar_Value='10.58.0.13' where Value_Name='SMTPHost'

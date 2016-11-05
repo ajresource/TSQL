@@ -1,0 +1,22 @@
+create table EMPLOYEE
+(
+EmployeeID int,
+ManagerID	int,
+EmployeeName Varchar(10)
+)
+INSERT EMPLOYEE select 1,2,'Peter'
+INSERT EMPLOYEE select 2,3,'David'
+INSERT EMPLOYEE select 3,NULL,'Jane'
+INSERT EMPLOYEE select 4,2,'Mary'
+INSERT EMPLOYEE select 5,2,'Henry'
+
+select E.EmployeeName AS Employee,M.EmployeeName AS Manager from EMPLOYEE E
+INNER JOIN (select * from EMPLOYEE) M ON E.ManagerID=M.EmployeeID 
+
+
+select E.EmployeeName AS Employee,ISNULL(M.EmployeeName,'No Manager') AS Manager from EMPLOYEE E
+LEFT JOIN (select * from EMPLOYEE) M ON E.ManagerID=M.EmployeeID 
+
+select ManagerID,COUNT(*) from EMPLOYEE
+group by ManagerID
+having COUNT(*)>1

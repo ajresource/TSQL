@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Amt/!svn/ver/20137/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database
+END
+0_AMT_8_5C_Patch_DataLoading.sql
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/0_AMT_8_5C_Patch_DataLoading.sql
+END
+amt_3_AMT_MODES.sql
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/amt_3_AMT_MODES.sql
+END
+AMT_FILTER_CONFIG_Data_Load_4_FilterCtl.sql
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/AMT_FILTER_CONFIG_Data_Load_4_FilterCtl.sql
+END
+amt_1_AMT_Function_Equipment_Type.sql
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/amt_1_AMT_Function_Equipment_Type.sql
+END
+AMT85C_HOTFIX_20120524.sql
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Amt/!svn/ver/20137/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/AMT85C_HOTFIX_20120524.sql
+END
+1_AMT_8_5C_Patch_Database_Structure.sql
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/1_AMT_8_5C_Patch_Database_Structure.sql
+END
+6_AMT_8_5C_Patch_SP.sql
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Amt/!svn/ver/20126/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/6_AMT_8_5C_Patch_SP.sql
+END
+amt_0_AMT_Function.sql
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/amt_0_AMT_Function.sql
+END
+4_AMT_8_5C_Patch_Function.sql
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/4_AMT_8_5C_Patch_Function.sql
+END
+AMT85C_HOTFIX_20120529.sql
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Amt/!svn/ver/20137/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/AMT85C_HOTFIX_20120529.sql
+END
+7_AMT_8_5C_Patch_Tr.sql
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/7_AMT_8_5C_Patch_Tr.sql
+END
+amt_2_AMT_Function_Hierarchy_System_Administrator.sql
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/amt_2_AMT_Function_Hierarchy_System_Administrator.sql
+END
+AMT_FILTER_CONFIG_Data_Load_2_SearchCtl.sql
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/AMT_FILTER_CONFIG_Data_Load_2_SearchCtl.sql
+END
+AMT_FILTER_CONFIG_Data_Load_1_Report.sql
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Amt/!svn/ver/19875/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/AMT_FILTER_CONFIG_Data_Load_1_Report.sql
+END
+5_AMT_8_5C_Patch_Views.sql
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/5_AMT_8_5C_Patch_Views.sql
+END
+9_AMT 8.5C Update 3 - FrontPage.sql
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Amt/!svn/ver/19772/tags/AMT%208.5.119%20(85C)/Patches/Update3/Database/9_AMT%208.5C%20Update%203%20-%20FrontPage.sql
+END

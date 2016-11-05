@@ -1,0 +1,42 @@
+
+
+INSERT INTO [dbo].[tblTaskTypes]
+           ([Code]
+           ,[Description]
+           ,[LastModByUserId]
+           ,[LastModDate]
+           ,[CreateByUserId]
+           ,[CreateDate]
+           ,[Default_Record]
+)
+     VALUES
+           ('UN0','Unassigned',0,GETDATE(),0,GETDATE(),0)
+GO
+
+select * from tblTaskTypes
+
+exec [AA_REPLACE_CODES_P] tblTaskTypes,Code,'UN','UN0',1
+
+SET IDENTITY_INSERT tblTaskTypes ON
+Go
+
+INSERT INTO [dbo].[tblTaskTypes]
+           ([TaskTypeID], [Code]
+           ,[Description]
+           ,[LastModByUserId]
+           ,[LastModDate]
+           ,[CreateByUserId]
+           ,[CreateDate]
+           ,[Default_Record]
+)
+     VALUES
+           (1,'UN','Unassigned',0,GETDATE(),0,GETDATE(),0)
+GO
+
+SET IDENTITY_INSERT tblTaskTypes OFF
+Go
+
+exec [AA_REPLACE_CODES_P] tblTaskTypes,Code,'UN0','UN',1
+
+
+select * from tblTaskTypes

@@ -1,0 +1,18 @@
+select * from tblCurrencies
+
+Update 
+
+CAD
+Canadian Dollar
+CAD
+DELETE FROM tblLabourRates
+DELETE FROM tblCurrencies 
+
+DELETE FROM tblCurrencies 
+TRUNCATE TABLE tblCurrencies
+
+
+DBCC CHECKIDENT ( 'tblCurrencies', RESEED, 0) 
+
+INSERT INTO tblCurrencies(Currency,CurrencyDesc,DefaultLabRate,PrimaryCurr,Symbol,CreateByUserId,CreateDate,LastModByUserId,LastModDate)
+VALUES('CAD','Canadian Dollar', 0,1,'CAD',0,GETDATE(),0,GETDATE())

@@ -1,0 +1,5 @@
+DELETE   FROM  dbo.tblWorkOrderSettlements
+DELETE   FROM  dbo.tblWorkOrderOperations
+DELETE   FROM  dbo.tblWorkOrderInvoices
+--delete  from tblWorkOrderProjs
+DELETE   FROM  dbo.tblWorkOrders

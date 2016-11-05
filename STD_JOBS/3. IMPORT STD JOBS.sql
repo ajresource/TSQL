@@ -1,0 +1,1 @@
+exec AJ_KIRD_IMPORT_P @fromdbname='isipl_AMT_CAT_USA'
